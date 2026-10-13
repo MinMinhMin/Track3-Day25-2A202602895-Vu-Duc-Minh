@@ -49,11 +49,11 @@ client:
 
 # ----------------------------------------------------------------------------
 # Part G: YOUR semantic cache settings (read by SemanticCache).
-# These starter values are deliberately naive: run `make cache`, read
-# wrong_answers_by_reason, tune each value and justify it in report section 8.
+# C1 measurements: 0.95 avoids near-intent false hits; 60 s limits silent
+# content staleness; 180 s covers the 120 s provider outage with stale-if-error.
 # ----------------------------------------------------------------------------
 cache:
-  similarity_threshold: 0.80
-  ttl_s: 600
-  max_stale_s: 0
+  similarity_threshold: 0.95
+  ttl_s: 60
+  max_stale_s: 180
   max_entries: 500
