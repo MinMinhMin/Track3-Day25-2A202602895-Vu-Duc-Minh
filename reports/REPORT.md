@@ -1,6 +1,6 @@
 # Lab 25B — Report
 
-**Họ tên / nhóm:** Vũ Đức Minh - 2A202602895 **Commit:**  **Điểm tự động (`make grade`):** 84.0 / 88
+**Họ tên / nhóm:** Vũ Đức Minh - 2A202602895 **Commit:** adff6230f69ed5214f7e89ae31fee3dbdeca90cf  **Điểm tự động (`make grade`):** 84.0 / 88
 
 > Số liệu được lấy từ `reports/gameday/*.json`, `reports/workflows.json`, `reports/slo.json` và `reports/cache/*.json`. Grader cục bộ không có bộ SLO ẩn của giảng viên; phần 4 điểm đó được chấm riêng.
 
